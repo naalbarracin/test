@@ -27,9 +27,13 @@ pg.connect(process.env.DATABASE_URL, function(err, client, done) {
   });
 });
 }
-var myLink = document.getElementById('addteam');
+var myLink = document.getElementById('addteama');
 
 myLink.onclick = init()
+
+function functionName( s ){
+	alert('Hello, ' + s + '!');
+}
 
 
 /*const app = express(); 
